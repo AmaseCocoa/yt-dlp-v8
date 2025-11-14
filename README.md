@@ -1,5 +1,7 @@
 # yt-dlp-v8
 yt-dlp jsc provider to resolve Youtube N/Sig with v8 javascript engine. using [stpyv8](https://github.com/cloudflare/stpyv8) (V8 binding for Python) by cloudflare.
+
+The provider implementation was created with a reference to [yt-dlp-apple-webkit-jsi](https://github.com/grqz/yt-dlp-apple-webkit-jsi/tree/4636207d13074bf54ae4bbc002bbd596b822bbd0).
 ## Feature
 - Users do not need to manually install external dependencies (such as Deno or Node).
 ## Install
