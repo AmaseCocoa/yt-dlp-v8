@@ -1,0 +1,46 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[[package]]
+name = "stpyv8"
+version = "13.1.201.22"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/17/69/26132fcd57f54a3f1f3688d2ab0a07dadc140b2d54edf28e44933ee7dccc/stpyv8-13.1.201.22.tar.gz", hash = "sha256:2bdbc7307dbf86cfc4bd0a11f0ae1f1c6f91d1b3366a7b409f9fc5d01f69441d", size = 46360, upload-time = "2025-01-09T10:24:10.323Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/be/9b/074a02acf527c84e28a7a24fb7ad702df480336b36c3dd78eebdc7deb69a/stpyv8-13.1.201.22-cp312-cp312-macosx_13_0_x86_64.whl", hash = "sha256:fc2b956bfaf23531c490845edb7d80fc998fe8aee1c7cf1337317dae01169307", size = 19527171, upload-time = "2025-01-09T10:52:46.08Z" },
+    { url = "https://files.pythonhosted.org/packages/9a/83/31f490600dcaf83f2055c2d02d4a3a9363977d7b519b254b9dea4af1a109/stpyv8-13.1.201.22-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:6dc40b656cea7fe541f6bdbad83b6b4ed51e5ead985b54c139319a731253a55e", size = 17882094, upload-time = "2025-01-09T10:36:18.005Z" },
+    { url = "https://files.pythonhosted.org/packages/33/d5/b6e089b2229caf5e1ff06cbd1e6d3d259501e56aaeed031546b67f65db22/stpyv8-13.1.201.22-cp312-cp312-manylinux_2_31_x86_64.whl", hash = "sha256:c24aa4215c64db7d67fc6c42c0d7731cabcf300596bf9c826ae74f426fe3b771", size = 24885356, upload-time = "2025-01-09T10:37:05.281Z" },
+    { url = "https://files.pythonhosted.org/packages/7d/08/256157e383b6a8d0cf2aa879bea5cdaa02fd43065267e2a198c9777abee1/stpyv8-13.1.201.22-cp312-cp312-win_amd64.whl", hash = "sha256:c4292843c8133fc99833aceef25925a97edf01031e186335582deb077b99d2bf", size = 14109876, upload-time = "2025-01-09T10:40:39.734Z" },
+    { url = "https://files.pythonhosted.org/packages/bb/2e/c3003d600b7c08368c5a4e42d29047aa4fb65b829881560398ffc817268c/stpyv8-13.1.201.22-cp313-cp313-macosx_13_0_x86_64.whl", hash = "sha256:b53df6114a88698ee6f3820cf46476e83ee09c9a67dd9f7cf58ca6a2928238b0", size = 19527440, upload-time = "2025-01-09T10:52:52.341Z" },
+    { url = "https://files.pythonhosted.org/packages/99/43/aab8a2a69a430cc352d0eb72bdcdd6f3154b1fcb678974530f1d863de62c/stpyv8-13.1.201.22-cp313-cp313-macosx_14_0_arm64.whl", hash = "sha256:6cb5e8751aee2487cc3b5f21eac6d459041a7180a779941b64db5736e27276ee", size = 17882373, upload-time = "2025-01-09T10:36:21.519Z" },
+    { url = "https://files.pythonhosted.org/packages/d3/f7/c7848c71c80c53583751f004411f27a7b3ae9db215e9f6b4f2f44be09201/stpyv8-13.1.201.22-cp313-cp313-manylinux_2_31_x86_64.whl", hash = "sha256:834b9761bb7f49da8b887847c7647495a2cf6c45f69e2124ae0e3f024493bc15", size = 24881281, upload-time = "2025-01-09T10:37:13.804Z" },
+    { url = "https://files.pythonhosted.org/packages/67/44/4705db1a1f44aad13a877a0985e1af7039e558a9eda5b494d555c217fd7f/stpyv8-13.1.201.22-cp313-cp313-win_amd64.whl", hash = "sha256:c8189b8c4d87579f353705441757f11e2f2260578b82000925dadf0ed59a47e3", size = 14109520, upload-time = "2025-01-09T10:40:43.794Z" },
+    { url = "https://files.pythonhosted.org/packages/f9/cb/0f88fa290a556f35fccf8bd143b88668e49ab21ee7a35fe87950a45ee5bd/stpyv8-13.1.201.22-cp314-cp314-macosx_13_0_x86_64.whl", hash = "sha256:c4bf3048c96a6a1561861da0c74be842c79a71373d3bec0d53c4e8f6eaa7b6e8", size = 19521166, upload-time = "2025-11-03T11:25:35.186Z" },
+    { url = "https://files.pythonhosted.org/packages/f4/cb/f8726baf608d92f76ae66c6180d2d781d4e6dad21488262131b92814d03a/stpyv8-13.1.201.22-cp314-cp314-macosx_14_0_arm64.whl", hash = "sha256:6fdbc3a8b1aa941064ec0976a5a85761f50e9090468ce275c22d0774293d2668", size = 17883664, upload-time = "2025-11-03T11:24:08.709Z" },
+    { url = "https://files.pythonhosted.org/packages/ad/4e/d002dd7a724d64571c161b1f1b3f3258066becd666b0f5233a7b519a6432/stpyv8-13.1.201.22-cp314-cp314-manylinux_2_35_x86_64.whl", hash = "sha256:c0b258c7c5a79c5f19e636b93eece90d3cf9109af9a11c5394bdb807ed68e04a", size = 24699784, upload-time = "2025-11-03T11:25:15.706Z" },
+]
+
+[[package]]
+name = "yt-dlp"
+version = "2025.11.12"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/cf/41/53ad8c6e74d6627bd598dfbb8ad7c19d5405e438210ad0bbaf1b288387e7/yt_dlp-2025.11.12.tar.gz", hash = "sha256:5f0795a6b8fc57a5c23332d67d6c6acf819a0b46b91a6324bae29414fa97f052", size = 3076928, upload-time = "2025-11-12T01:00:38.43Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5f/16/fdebbee6473473a1c0576bd165a50e4a70762484d638c1d59fa9074e175b/yt_dlp-2025.11.12-py3-none-any.whl", hash = "sha256:b47af37bbb16b08efebb36825a280ea25a507c051f93bf413a6e4a0e586c6e79", size = 3279151, upload-time = "2025-11-12T01:00:35.813Z" },
+]
+
+[[package]]
+name = "yt-dlp-v8"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "stpyv8" },
+    { name = "yt-dlp" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "stpyv8", specifier = ">=13.1.201.22" },
+    { name = "yt-dlp", specifier = ">=2025.11.12" },
+]

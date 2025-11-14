@@ -1,0 +1,20 @@
+[project]
+name = "yt-dlp-v8"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AmaseCocoa", email = "cocoa@amase.cc" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "stpyv8>=13.1.201.22",
+    "yt-dlp>=2025.11.12",
+]
+
+[project.scripts]
+yt-dlp-v8 = "yt_dlp_v8:main"
+
+[build-system]
+requires = ["uv_build>=0.9.8,<0.10.0"]
+build-backend = "uv_build"
